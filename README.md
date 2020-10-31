@@ -1,4 +1,7 @@
 # OpenDispenser
+
+this is a simple project to fix a 12v water dispenser
+
 <img src="./OpenDispenserScheme_bb.svg">
 Item list:
 * 1x Arduino Uno
