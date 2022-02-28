@@ -12,9 +12,8 @@ private:
     
 public:
     DoubleStateButton(uint32_t pin);
-    bool getButtonON() { return buttonPress; }
+    bool isON() { return buttonPress; }
     
-    bool isON();
     void exec();
 };
 

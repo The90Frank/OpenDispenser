@@ -3,14 +3,14 @@
 void Valve::exec(){
   if(valveActive){
     button->exec();
-    if(!(button->getButtonON())){
+    if(!(button->isON())){
       valveActive = false;
       inibition = false;
     }
   } else {
     if(!inibition){
       button->exec();
-      if(button->getButtonON()){
+      if(button->isON()){
          valveActive = true;
          inibition = true;
       }else{
